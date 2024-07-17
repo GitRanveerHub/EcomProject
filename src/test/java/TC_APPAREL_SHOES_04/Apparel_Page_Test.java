@@ -15,6 +15,8 @@ public class Apparel_Page_Test extends BaseClass {
 	@Test
 	public void apparel() throws Throwable {
 			// push
+			// 2nd commit
+			// Nothing has to modify 
 		     Home_Page home = new Home_Page(driver);
 		     home.clickApparel();
 			 String Apparel = elib.getDataFromExcel("Apparel", 0, 0);
